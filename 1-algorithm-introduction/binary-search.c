@@ -4,6 +4,9 @@
    Binary Search 
    An algorithm that returns the position of the target element in a sorted array(list)
    if the element is not found, it returns None 
+   It works by repeatedly dividing in half the portion of the list that could 
+   contain the target value, until you've narrowed down the possible locations 
+   to just one.
 */
 
 
